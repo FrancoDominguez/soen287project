@@ -6,14 +6,17 @@ on:
   pull_request:
     branches: ["main"]
 
+env:
+  MY_IMAGE_NAME:
+
 jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      MY_IMAGE_NAME: soen287image
+      MY_IMAGE_NAME: ${{ vars.IMAGE_NAME }}
     steps:
-      - uses: actions/checkout@v4
-      - name: Build the Docker image
+      - name: Read env variable
         run: |
-          echo "testing env variable ${{ env.IMAGE_NAME }}"
+          echo "testing workflow env variable directly: ${{ vars.IMAGE_NAME }}"
+          echo "testing env secret: ${{ secrets.SUPER_SECRET }}"
           echo "testing job specific variable $MY_IMAGE_NAME"
