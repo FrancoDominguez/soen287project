@@ -1,0 +1,19 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      MY_IMAGE_NAME: soen287image
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the Docker image
+        run: |
+          echo "testing env variable $IMAGE_NAME"
+          echo "testing job specific variable $MY_IMAGE_NAME"
