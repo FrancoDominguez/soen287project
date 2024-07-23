@@ -15,5 +15,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build the Docker image
         run: |
-          echo "testing env variable $IMAGE_NAME"
+          echo "testing env variable ${{ env.IMAGE_NAME }}"
           echo "testing job specific variable $MY_IMAGE_NAME"
