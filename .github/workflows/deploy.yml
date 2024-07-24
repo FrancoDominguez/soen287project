@@ -7,16 +7,14 @@ on:
     branches: ["main"]
 
 env:
-  MY_IMAGE_NAME:
+  MY_IMAGE_NAME: someimagename
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    env:
-      MY_IMAGE_NAME: ${{ vars.IMAGE_NAME }}
     steps:
       - name: Read env variable
         run: |
-          echo "testing workflow env variable directly: ${{ vars.IMAGE_NAME }}"
+          echo "testing workflow env variable directly: ${{ env.MY_IMAGE_NAME }}"
           echo "testing env secret: ${{ secrets.SUPER_SECRET }}"
           echo "testing job specific variable $MY_IMAGE_NAME"
