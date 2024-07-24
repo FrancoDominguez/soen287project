@@ -6,8 +6,7 @@ on:
   pull_request:
     branches: ["main"]
 
-env:
-  MY_IMAGE_NAME: someimagename
+env: TEST1
 
 jobs:
   test:
