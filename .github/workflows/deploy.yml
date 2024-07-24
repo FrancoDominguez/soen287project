@@ -15,6 +15,6 @@ jobs:
     steps:
       - name: Read env variable
         run: |
-          echo "testing workflow env variable directly: ${{ env.MY_IMAGE_NAME }}"
+          echo "testing workflow env variable directly: ${{ vars.TEST1 }}"
           echo "testing env secret: ${{ secrets.SUPER_SECRET }}"
           echo "testing job specific variable $MY_IMAGE_NAME"
