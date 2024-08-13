@@ -2,7 +2,7 @@ import React from "react";
 
 function FindPetPage() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col px-2">
       <div className="flex justify-center items-center pt-10">
         <form className="flex flex-col w-[500px] space-y-5 p-5 border-2 border-gray-200 rounded-xl bg-slate-800 text-white text-lg">
           <label className="text-center text-2xl font-bold">

@@ -3,7 +3,7 @@ import React from "react";
 function ContactUsPage() {
   return (
     <div className="flex flex-col">
-      <div className="flex justify-center items-center pt-10">
+      <div className="flex justify-center items-center pt-10 mx-2">
         <form className="flex flex-col w-[500px] space-y-5 p-5 border-2 border-gray-200 rounded-xl bg-slate-800 text-white text-lg">
           <div className="font-bold text-2xl text-center mb-10">Contact Us</div>
           <div className="flex justify-between">

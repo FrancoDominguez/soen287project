@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
 import data from "./../public/menuOptions.json";
 import "./styles.css";
 import { AppProvider } from "./components/context";
@@ -14,15 +15,25 @@ import PetCarePage from "./pages/petCare";
 import DisclaimerPage from "./pages/disclaimer";
 
 function App() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <Router>
       <AppProvider>
         <div className="flex flex-row h-screen w-screen overflow-auto">
-          <div className="sticky top-0 bg-slate-800 w-[18%] min-w-[220px]">
+          <div className="mobile:hidden tablet:hidden desktop:block sticky top-0 bg-slate-800 w-[18%] min-w-fit">
             <Sidebar pages={data} />
           </div>
           <div className="flex flex-col h-full w-full overflow-auto">
-            <div className="sticky top-0 bg-slate-800 w-full min-h-[5vh]">
+            <div className="mobile:block tablet:block desktop:hidden sticky top-0 bg-slate-800 w-full">
+              <Sidebar pages={data} />
+            </div>
+            <div className="sticky top-0 bg-slate-800 w-full min-h-fit p-1">
               <Header />
             </div>
             <div className="overflow-y-auto">

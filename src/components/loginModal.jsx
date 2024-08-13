@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { AppContext } from "./context";
 
 export default function LoginModal() {
-  const [showModal, setShowModal] = React.useState(false);
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
       <button
@@ -51,7 +51,7 @@ export default function LoginModal() {
                 {/*footer*/}
                 <div className="flex items-center justify-around p-8 border-t border-solid border-blueGray-200 rounded-b">
                   <button
-                    className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-md px-8 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-2 mb-2 ease-linear transition-all duration-150"
+                    className="bg-slate-500 text-white active:bg-slate-600 font-bold uppercase text-md px-8 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-2 mb-2 ease-linear transition-all duration-150"
                     type="button"
                     onClick={() => setShowModal(false)}
                   >

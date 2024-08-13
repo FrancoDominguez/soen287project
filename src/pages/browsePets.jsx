@@ -19,7 +19,7 @@ function BrowsePetsPage() {
 
   return (
     <div className="flex justify-center py-10">
-      <div className="columns-3 gap-5">
+      <div className="mobile:columns-1 tablet:columns-2 desktop:columns-3 gap-5 px-3">
         {shuffledPets.map((item) => (
           <PetCard
             key={item.name}
