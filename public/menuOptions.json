@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "title": "Home", "href": "", "page": "" },
+    { "title": "Browse Available Pets", "href": "browse-pets", "page": "" },
+    { "title": "Find a Dog/Cat", "href": "find-pet", "page": "" },
+    { "title": "Dog & Cat Care", "href": "pet-care", "page": "" },
+    { "title": "Have a Pet to Give Away?", "href": "give-away", "page": "" },
+    { "title": "Contact Us", "href": "contact-us", "page": "" }
+  ]
+}

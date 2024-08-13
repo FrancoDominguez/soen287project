@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "title": "Disclaimer",
+      "text": "The information provided on this website is for general informational purposes only. While we strive to ensure that all content is accurate and up-to-date, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose."
+    },
+    {
+      "title": "Data Privacy and Security",
+      "text": "We are committed to protecting your privacy. Any personal information you provide through this website will be used solely for the purposes of facilitating dog adoption processes and related communications. We do not sell, rent, or trade your personal information to third parties. All data is securely stored and handled with the utmost care and in compliance with applicable data protection regulations. However, we cannot guarantee absolute security of data transmitted over the internet."
+    },
+    {
+      "title": "Responsibility for Content",
+      "text": "The website may feature user-generated content, including but not limited to pet profiles and adoption stories. We do not verify the accuracy of this content and are not responsible for any incorrect or misleading information posted by users. The views and opinions expressed in user-generated content are solely those of the respective authors and do not necessarily reflect our views."
+    },
+    {
+      "title": "Limitation of Liability",
+      "text": "In no event will we be liable for any loss or damage, including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website."
+    },
+    {
+      "title": "External Links",
+      "text": "Our website may contain links to other websites that are not under our control. We have no responsibility for the content of the linked websites and do not endorse or assume any responsibility for them. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them."
+    },
+    {
+      "title": "Changes to Disclaimer",
+      "text": "We may update this disclaimer from time to time. Any changes will be posted on this page, and your continued use of the website constitutes acceptance of those changes."
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "name": "Sam L. Jackson",
+      "petType": "dog",
+      "breed": "Ugly Dog",
+      "age": "8",
+      "color": "black",
+      "description": "This dog has a unique appearance that resembles Sam L. Jackson. Despite the name, he's a lovable companion. His demeanor matches his distinctive look.",
+      "imagePath": "sam.png"
+    },
+    {
+      "name": "Travolta",
+      "petType": "dog",
+      "breed": "staffordshire",
+      "age": "2",
+      "color": "brown",
+      "description": "A cute little munchkin with a playful attitude. Travolta is friendly and full of energy. His brown coat and charming personality make him irresistible.",
+      "imagePath": "travy.png"
+    },
+    {
+      "name": "Buddy",
+      "petType": "dog",
+      "breed": "beagle",
+      "age": "4",
+      "color": "white",
+      "description": "Buddy is a beagle known for his playful and energetic nature. His white coat and boundless enthusiasm make him a great companion. He loves adventures and playtime.",
+      "imagePath": "dog1.png"
+    },
+    {
+      "name": "Rex",
+      "petType": "dog",
+      "breed": "German Shepherd",
+      "age": "5",
+      "color": "black and tan",
+      "description": "Rex is a loyal and protective German Shepherd. His black and tan coat is striking, and his commitment to his family is unwavering. He’s both a strong guardian and a gentle friend.",
+      "imagePath": "dog2.png"
+    },
+    {
+      "name": "Max",
+      "petType": "dog",
+      "breed": "Chihuahua",
+      "age": "3",
+      "color": "golden",
+      "description": "Max is a friendly Chihuahua with a golden coat. Known for his outgoing nature, he’s always ready for a game or a cuddle. His cheerful personality lights up any room.",
+      "imagePath": "dog3.png"
+    },
+    {
+      "name": "Daisy",
+      "petType": "dog",
+      "breed": "Poodle",
+      "age": "2",
+      "color": "apricot",
+      "description": "Daisy, the intelligent and elegant Poodle, has a soft apricot coat. She’s known for her graceful movements and sharp mind. Her presence adds a touch of sophistication.",
+      "imagePath": "dog4.png"
+    },
+    {
+      "name": "Rocky",
+      "petType": "dog",
+      "breed": "Bulldog",
+      "age": "6",
+      "color": "brindle",
+      "description": "Rocky is a sturdy Bulldog with a brindle coat. He’s affectionate and loves to be close to his family. His strong build and gentle nature make him a reliable companion.",
+      "imagePath": "dog5.png"
+    },
+    {
+      "name": "Lola",
+      "petType": "dog",
+      "breed": "French Bulldog",
+      "age": "4",
+      "color": "fawn",
+      "description": "Lola is a playful and charming French Bulldog with a fawn coat. Her lively personality and affectionate nature make her a favorite among family members. She’s always up for fun.",
+      "imagePath": "dog6.png"
+    },
+    {
+      "name": "Lucy",
+      "petType": "cat",
+      "breed": "Siamese",
+      "age": "2",
+      "color": "cream",
+      "description": "Lucy is a talkative and affectionate Siamese cat with a cream-colored coat. She enjoys interaction and is always ready to engage with her humans. Her presence is warm and inviting.",
+      "imagePath": "cat1.png"
+    },
+    {
+      "name": "Mittens",
+      "petType": "cat",
+      "breed": "Maine Coon",
+      "age": "4",
+      "color": "gray",
+      "description": "Mittens, a Maine Coon with a gray coat, is known as a gentle giant. His calm demeanor and large size make him an impressive and loving companion. He enjoys a relaxed and comfortable environment.",
+      "imagePath": "cat2.png"
+    },
+    {
+      "name": "Whiskers",
+      "petType": "cat",
+      "breed": "Persian",
+      "age": "6",
+      "color": "white",
+      "description": "Whiskers is a regal Persian cat with a pristine white coat. His calm and composed nature makes him a serene presence in any home. He’s a true example of feline elegance.",
+      "imagePath": "cat3.png"
+    },
+    {
+      "name": "Shadow",
+      "petType": "cat",
+      "breed": "Sphynx",
+      "age": "3",
+      "color": "black",
+      "description": "Shadow is an affectionate and playful Sphynx cat with a black skin. His lack of fur highlights his unique appearance and warm personality. He loves cuddles and active playtimes.",
+      "imagePath": "cat4.png"
+    },
+    {
+      "name": "Rex",
+      "petType": "dog",
+      "breed": "Rottweiler",
+      "age": "4",
+      "color": "black and tan",
+      "description": "A strong and loyal Rottweiler with a friendly personality.",
+      "imagePath": "dog7.png"
+    },
+    {
+      "name": "Buddy",
+      "petType": "dog",
+      "breed": "Golden Retriever",
+      "age": "2",
+      "color": "golden",
+      "description": "A playful Golden Retriever who loves to fetch and cuddle.",
+      "imagePath": "dog8.png"
+    },
+    {
+      "name": "Max",
+      "petType": "dog",
+      "breed": "Beagle",
+      "age": "5",
+      "color": "brown and white",
+      "description": "An energetic Beagle with a keen sense of smell and a love for adventures.",
+      "imagePath": "dog9.png"
+    },
+    {
+      "name": "Charlie",
+      "petType": "dog",
+      "breed": "Bulldog",
+      "age": "6",
+      "color": "white and brindle",
+      "description": "A calm and affectionate Bulldog with a distinctive wrinkled face.",
+      "imagePath": "dog10.png"
+    },
+    {
+      "name": "Whiskers",
+      "petType": "cat",
+      "breed": "Siamese",
+      "age": "3",
+      "color": "cream with brown points",
+      "description": "A vocal and affectionate Siamese cat with striking blue eyes.",
+      "imagePath": "cat5.png"
+    },
+    {
+      "name": "Luna",
+      "petType": "cat",
+      "breed": "Maine Coon",
+      "age": "4",
+      "color": "gray",
+      "description": "A gentle giant with a fluffy coat and a friendly nature.",
+      "imagePath": "cat6.png"
+    },
+    {
+      "name": "Oliver",
+      "petType": "cat",
+      "breed": "Persian",
+      "age": "5",
+      "color": "white",
+      "description": "A calm and regal Persian cat with a long, luxurious coat.",
+      "imagePath": "cat7.png"
+    },
+    {
+      "name": "Mittens",
+      "petType": "cat",
+      "breed": "Ragdoll",
+      "age": "2",
+      "color": "blue point",
+      "description": "A relaxed and affectionate Ragdoll cat known for its striking blue eyes.",
+      "imagePath": "cat8.png"
+    },
+    {
+      "name": "Tinkerbell",
+      "petType": "cat",
+      "breed": "Sphynx",
+      "age": "1",
+      "color": "pink",
+      "description": "An outgoing and playful Sphynx cat with a unique hairless appearance.",
+      "imagePath": "cat9.png"
+    },
+    {
+      "name": "Shadow",
+      "petType": "cat",
+      "breed": "British Shorthair",
+      "age": "6",
+      "color": "black",
+      "description": "A sturdy and independent British Shorthair with a plush coat and golden eyes.",
+      "imagePath": "cat10.png"
+    }
+  ]
+}
