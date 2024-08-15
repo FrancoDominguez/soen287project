@@ -1,8 +1,17 @@
 import React, { useState } from "react";
 import { AppContext } from "./context";
+import { login } from "../../test";
 
 export default function LoginModal() {
   const [showModal, setShowModal] = useState(false);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleLogin = async () => {
+    setShowModal(false);
+    await login(email, password);
+  };
+
   return (
     <>
       <button
@@ -38,6 +47,8 @@ export default function LoginModal() {
                     <input
                       type="text"
                       className="border-2 border-gray-300 rounded-md focus:border-black indent-2 text-lg"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                   <div className="flex flex-col mb-4">
@@ -45,6 +56,8 @@ export default function LoginModal() {
                     <input
                       type="password"
                       className="border-2 border-gray-300 rounded-md focus:border-black indent-2 text-lg"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
                     />
                   </div>
                 </div>
@@ -53,7 +66,7 @@ export default function LoginModal() {
                   <button
                     className="bg-slate-500 text-white active:bg-slate-600 font-bold uppercase text-md px-8 py-4 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-2 mb-2 ease-linear transition-all duration-150"
                     type="button"
-                    onClick={() => setShowModal(false)}
+                    onClick={handleLogin}
                   >
                     Login
                   </button>

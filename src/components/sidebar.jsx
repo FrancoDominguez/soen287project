@@ -7,10 +7,10 @@ function Sidebar({ pages }) {
 
   return (
     <div className="mobile:border-b tablet:border-b desktop:border-none">
-      <div className="flex flex-row  m-2 items-center ">
+      <a href="/" className="flex flex-row  m-2 items-center ">
         <img src="/logo.png" className="h-[60px] w-[60px]" />
         <div className="text-white ml-2 font-bold text-2xl">PetYourPet</div>
-      </div>
+      </a>
       <div
         className="flex px-2 mobile:pb-1 mobile:flex-row mobile:whitespace-nowrap tablet:flex-row 
       desktop:flex-col mobile:overflow-x-auto"
